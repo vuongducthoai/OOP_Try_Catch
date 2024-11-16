@@ -9,6 +9,9 @@ public class HocPhan {
         this.tenHP = tenHP;
     }
 
+    public HocPhan() {
+    }
+
     public String getMaHP() {
         return maHP;
     }

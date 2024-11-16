@@ -1,8 +1,5 @@
 package _05_EXCEPTION.OOP_Exercise;
 
-import com.sun.security.jgss.GSSUtil;
-
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class KetQuaHT {
@@ -18,6 +15,9 @@ public class KetQuaHT {
         this.hocPhan = hocPhan;
         this.soTC = soTC;
         this.diem = diem;
+    }
+
+    public KetQuaHT() {
     }
 
     public void nhapKetQuaHT() {
